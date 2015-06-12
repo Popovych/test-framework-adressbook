@@ -17,7 +17,7 @@ public class ApplicationManager {
 	}
 	
 	public void stop(){
-		if (webDriverHelper != null){
+			if (webDriverHelper != null){
 		webDriverHelper.stop();
 		}
 	};
